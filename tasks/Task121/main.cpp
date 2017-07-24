@@ -6,6 +6,7 @@
 //Create a DigitalOut “object” called myled
 //Pass constant D7 as a “parameter”
 DigitalOut myled(D7);
+//On the F401 board, you can also change this to LED1 if you wish to use the on-board LED
 
 //The main function - all executable C / C++
 //applications have a main function. This is
