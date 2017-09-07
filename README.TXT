@@ -1,6 +1,3 @@
-All the sourcecode for ELEC143
-Please type
+All the sourcecode for ELEC143, please type:
 
-git update
-
-To refresh
+git clone --recursive https://github.com/UniversityOfPlymouth-Electronics/ELEC143.git
