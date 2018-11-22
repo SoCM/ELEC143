@@ -1,3 +1,60 @@
-.o
-.d
-.DS_Store
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# Library
+*.qdb
+*.qtl
+*.qpg
+
+
+# Dolphin
+*.directory
+
+# ModelSim
+**/*.bak
+*.cr.mti
+*.wlf
+VHDL/transcript
+VHDL/SPIClient/transcript
+
+# Quartus
+**/db/
+*.qws
+**/incremental_db/
+**/simulation/
+**/output_files/
+**/*.rpt
+
+#Exclusions
+!/**/mbed/**    
